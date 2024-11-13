@@ -3,6 +3,15 @@ body {
 }
 .example {
     display: grid;
-    grid-template-rows: 50px auto 50px;
+    grid-template-rows: 60px auto 60px;
     height: 100vh;
+}
+header, footer {
+    background-color: lightblue;
+    text-align: center;
+}
+main {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
 }
